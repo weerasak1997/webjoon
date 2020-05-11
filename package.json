@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "web for sell product",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "weerasak chiang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "multer": "^1.4.2",
+    "node-thermal-printer": "^4.1.2",
+    "thermal-printer": "^1.0.5",
+    "vue-chartjs": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
